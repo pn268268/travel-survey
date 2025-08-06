@@ -1,0 +1,1111 @@
+@charset "utf-8";
+
+body {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+/*area0*/
+#area0 select {
+    padding: 2px 5px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    border: 1px solid #c4c4c4;
+}
+
+#area0 textarea {
+    padding: 2px 5px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    border: 1px solid #c4c4c4;
+}
+
+#area0 .top_bar {
+    height: 46px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    /*background-color: #D4BBBB;*/
+}
+
+#area0 .top_logo {
+    float: left;
+}
+
+#area0 .top_no {
+    float: right;
+
+}
+
+#area0 .dk_kv {
+    background-image: url(images/kv.jpg);
+    background-position: center;
+    height: 370px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    background-size: cover;
+}
+
+#area0 .kv_tit {
+    margin-top: 4%;
+    margin-left: 12%;
+    height: 50%;
+}
+
+#area0 .dk_titbar {
+    width: 100%;
+    height: 95px;
+    background-image: url(images/tit_bar_bg.jpg);
+    background-repeat: repeat-x;
+}
+
+#area0 .dk_tit_name {
+    width: 820px;
+    height: 95px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#area0 .txt_tit {
+    margin-top: 9px;
+
+}
+
+#area0 .dk_must_icon {
+    float: right;
+    margin-top: 45px;
+}
+
+#area0 .dk_info {
+    position: relative;
+    background-repeat: no-repeat;
+    width: 820px;
+    height: 190px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#area0 .dk_btn001 {
+    cursor: pointer;
+    opacity: 1;
+    position: absolute;
+    top: 26px;
+    left: 10px;
+}
+
+#area0 .dk_btn002 {
+    cursor: pointer;
+    opacity: 1;
+    position: absolute;
+    top: 26px;
+    left: 328px;
+}
+
+#area0 .dk_btn003 {
+    cursor: pointer;
+    opacity: 1;
+    position: absolute;
+    top: 26px;
+    left: 587px;
+}
+
+#area0 input {
+    padding: 2px 5px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    border: 1px solid #c4c4c4;
+}
+
+#area0 .foot_bar {
+    height: 51px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #52494A;
+    background-image: url(images/foot_copyright.jpg);
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+    bottom: 0;
+    position: fixed;
+}
+
+/*area1*/
+#area1 {
+    height: 100vh;
+    overflow-y: auto;
+    position: relative;
+    padding-bottom: 51px;
+}
+
+#area1 .dk_body {
+    min-height: 100vh;
+    position: relative;
+}
+
+#area1 table {
+    margin-bottom: 20px;
+}
+
+#area1 .top_bar {
+    height: 46px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    /*background-color: #D4BBBB;*/
+}
+
+#area1 .top_logo {
+    float: left;
+}
+
+#area1 .top_no {
+    float: right;
+}
+
+#area1 .dk_kv {
+    background-image: url(images/kv1.jpg);
+    background-position: center;
+    height: 370px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    background-size: cover;
+}
+
+#area1 .kv_tit {
+    margin-top: 4%;
+    margin-left: 9%;
+    height: 55%;
+}
+
+#area1 .dk_titbar {
+    width: 100%;
+    height: 95px;
+    background-image: url(images/tit_bar_bg.jpg);
+    background-repeat: repeat-x;
+}
+
+#area1 .dk_tit_name {
+    width: 820px;
+    height: 95px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#area1 .txt_tit {
+    margin-top: 9px;
+}
+
+#area1 .dk_must_icon {
+    float: right;
+    margin-top: 45px;
+}
+
+#area1 .dk_info {
+    position: relative;
+    background-image: url(images/dk_info_bg.jpg);
+    background-repeat: no-repeat;
+    width: 820px;
+    height: 477px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#area1 input {
+    padding: 2px 5px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    border: 1px solid #c4c4c4;
+}
+
+#area1 select {
+    padding: 2px 5px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    border: 1px solid #c4c4c4;
+}
+
+#area1 textarea {
+    padding: 2px 5px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    border: 1px solid #c4c4c4;
+}
+
+#area1 .dk_name {
+    width: 112px;
+    height: 20px;
+    position: absolute;
+    top: 34px;
+    left: 87px;
+}
+
+#area1 .dk_phone {
+    width: 112px;
+    height: 20px;
+    position: absolute;
+    top: 34px;
+    left: 275px;
+}
+
+#area1 .dk_email {
+    width: 298px;
+    height: 20px;
+    position: absolute;
+    top: 34px;
+    left: 477px;
+}
+
+#area1 .dk_place {
+    width: 214px;
+    height: 25px;
+    position: absolute;
+    top: 76px;
+    left: 160px;
+}
+
+#area1 .dk_remarks {
+    width: 686px;
+    height: 86px;
+    position: absolute;
+    top: 90px;
+    left: 86px;
+}
+
+#area1 .dk_opt {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 318px;
+    left: 326px;
+}
+
+#area1 .dk_agree {
+    cursor: pointer;
+    position: absolute;
+    top: 320px;
+    left: 353px;
+}
+
+#area1 .dk_btn001 {
+    width: 189px;
+    height: 69px;
+    font-style: normal;
+    color: #FFFFFF;
+    border: 0px solid #FFFFFF;
+    background-image: url(images/btn_send.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    opacity: 1;
+    position: absolute;
+    top: 365px;
+    left: 314px;
+}
+
+#area1 .foot_bar {
+    height: 51px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #52494A;
+    background-image: url(images/foot_copyright.jpg);
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+    bottom: 0;
+    position: fixed;
+    z-index: 100;
+}
+
+/*area2*/
+#area2 .top_bar {
+    height: 46px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    /*background-color: #D4BBBB;*/
+}
+
+#area2 .top_logo {
+    float: left;
+}
+
+#area2 .top_no {
+    float: right;
+}
+
+#area2 .dk_kv {
+    background-image: url(images/kv2.jpg);
+    background-position: center;
+    height: 370px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    background-size: cover;
+}
+
+#area2 .kv_tit {
+    margin-top: 4%;
+    margin-left: 9%;
+    height: 55%;
+}
+
+#area2 .dk_titbar {
+    width: 100%;
+    height: 95px;
+    background-image: url(images/tit_bar_bg.jpg);
+    background-repeat: repeat-x;
+}
+
+#area2 .dk_tit_name {
+    width: 820px;
+    height: 95px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#area2 .txt_tit {
+    margin-top: 9px;
+}
+
+#area2 .dk_must_icon {
+    float: right;
+    margin-top: 45px;
+}
+
+#area2 .dk_info {
+    position: relative;
+    background-image: url(images/dk_info_bg22.jpg);
+    background-repeat: no-repeat;
+    width: 820px;
+    height: 519px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#area2 input {
+    padding: 2px 5px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    border: 1px solid #c4c4c4;
+}
+
+#area2 select {
+    padding: 2px 5px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    border: 1px solid #c4c4c4;
+}
+
+#area2 textarea {
+    padding: 2px 5px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    border: 1px solid #c4c4c4;
+}
+
+#area2 .dk_name {
+    width: 112px;
+    height: 20px;
+    position: absolute;
+    top: 32px;
+    left: 87px;
+}
+
+#area2 .dk_phone {
+    width: 112px;
+    height: 20px;
+    position: absolute;
+    top: 32px;
+    left: 275px;
+}
+
+#area2 .dk_email {
+    width: 298px;
+    height: 20px;
+    position: absolute;
+    top: 32px;
+    left: 477px;
+}
+
+#area2 .dk_dday {
+    width: 157px;
+    height: 20px;
+    position: absolute;
+    top: 74px;
+    left: 118px;
+}
+
+#area2 .dk_place {
+    width: 214px;
+    height: 25px;
+    position: absolute;
+    top: 74px;
+    left: 434px;
+}
+
+#area2 .dk_nday {
+    width: 215px;
+    height: 25px;
+    position: absolute;
+    top: 116px;
+    left: 118px;
+}
+
+#area2 .dk_pno_1 {
+    width: 14px;
+    height: 20px;
+    position: absolute;
+    top: 157px;
+    left: 171px;
+}
+
+#area2 .dk_pno_2 {
+    width: 14px;
+    height: 20px;
+    position: absolute;
+    top: 157px;
+    left: 261px;
+}
+
+#area2 .dk_pno_3 {
+    width: 14px;
+    height: 20px;
+    position: absolute;
+    top: 157px;
+    left: 345px;
+}
+
+#area2 .dk_pno_4 {
+    width: 14px;
+    height: 20px;
+    position: absolute;
+    top: 157px;
+    left: 432px;
+}
+
+#area2 .dk_pno_5 {
+    width: 14px;
+    height: 20px;
+    position: absolute;
+    top: 157px;
+    left: 535px;
+}
+
+#area2 .dk_pno_6 {
+    width: 14px;
+    height: 20px;
+    position: absolute;
+    top: 157px;
+    left: 655px;
+}
+
+#area2 .dk_ptype {
+    width: 214px;
+    height: 25px;
+    position: absolute;
+    top: 200px;
+    left: 175px;
+}
+
+#area2 .dk_remarks {
+    width: 686px;
+    height: 86px;
+    position: absolute;
+    top: 242px;
+    left: 86px;
+}
+
+#area2 .dk_opt {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 355px;
+    left: 326px;
+}
+
+#area2 .dk_agree {
+    cursor: pointer;
+    position: absolute;
+    top: 356px;
+    left: 353px;
+}
+
+#area2 .dk_btn001 {
+    width: 189px;
+    height: 69px;
+    font-style: normal;
+    color: #FFFFFF;
+    border: 0px solid #FFFFFF;
+    background-image: url(images/btn_send.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    opacity: 1;
+    position: absolute;
+    top: 396px;
+    left: 314px;
+}
+
+#area2 .foot_bar {
+    height: 51px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #52494A;
+    background-image: url(images/foot_copyright.jpg);
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+    bottom: 0;
+    position: fixed;
+}
+
+/*area3*/
+#area3 .top_bar {
+    height: 46px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    /*background-color: #D4BBBB;*/
+}
+
+#area3 .top_logo {
+    float: left;
+}
+
+#area3 .top_no {
+    float: right;
+}
+
+#area3 .dk_kv {
+    background-image: url(images/kv3.jpg);
+    background-position: center;
+    height: 370px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    background-size: cover;
+}
+
+#area3 .kv_tit {
+    margin-top: 4%;
+    margin-left: 9%;
+    height: 55%;
+}
+
+#area3 input {
+    padding: 2px 5px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    border: 1px solid #c4c4c4;
+}
+
+#area3 select {
+    padding: 2px 5px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    border: 1px solid #c4c4c4;
+}
+
+#area3 textarea {
+    padding: 2px 5px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    border: 1px solid #c4c4c4;
+}
+
+#area3 .dk_titbar {
+    width: 100%;
+    height: 95px;
+    background-image: url(images/tit_bar_bg.jpg);
+    background-repeat: repeat-x;
+}
+
+#area3 .dk_tit_name {
+    width: 820px;
+    height: 95px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#area3 .txt_tit {
+    margin-top: 16px;
+}
+
+#area3 .dk_must_icon {
+    float: right;
+    margin-top: 45px;
+}
+
+#area3 .dk_info {
+    position: relative;
+    background-image: url(images/dk_info_bg1.jpg);
+    background-repeat: no-repeat;
+    width: 820px;
+    height: 217px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#area3 .dk_place {
+    width: 214px;
+    height: 25px;
+    position: absolute;
+    top: 1px;
+    left: 151px;
+}
+
+#area3 .dk_ptype1 {
+    width: 223px;
+    height: 25px;
+    position: absolute;
+    top: 25;
+    left: 510px;
+}
+
+#area3 .dk_ptype2 {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 3px;
+    left: 654px;
+}
+
+#area3 .dk_dday {
+    width: 157px;
+    height: 20px;
+    position: absolute;
+    top: 37px;
+    left: 151px;
+}
+
+#area3 .dk_nday {
+    width: 215px;
+    height: 25px;
+    position: absolute;
+    top: 37px;
+    left: 518px;
+}
+
+#area3 .dk_oman {
+    width: 215px;
+    height: 25px;
+    position: absolute;
+    top: 75px;
+    left: 151px;
+}
+
+#area3 .dk_remarks {
+    width: 611px;
+    height: 86px;
+    position: absolute;
+    top: 110px;
+    left: 150px;
+}
+
+#area3 .dk_titbar2 {
+    width: 100%;
+    height: 95px;
+    background-image: url(images/tit_bar_bg2.jpg);
+    background-repeat: repeat-x;
+}
+
+#area3 .dk_tit_name2 {
+    width: 820px;
+    height: 95px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#area3 .txt_tit2 {
+    margin-top: 28px;
+}
+
+#area3 .dk_must_icon2 {
+    float: right;
+    margin-top: 53px;
+}
+
+#area3 .dk_info2 {
+    position: relative;
+    background-image: url(images/dk_info_bg2.jpg);
+    background-repeat: no-repeat;
+    width: 820px;
+    height: 1337px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#area3 .dk_personal_1 {
+    position: absolute;
+    top: 37px;
+    left: 0px;
+    width: 820px;
+}
+
+#area3 .dk_personal_2 {
+    position: absolute;
+    top: 262px;
+    left: 0px;
+    width: 820px;
+}
+
+#area3 .dk_personal_3 {
+    position: absolute;
+    top: 488px;
+    left: 0px;
+    width: 820px;
+}
+
+#area3 .dk_personal_4 {
+    position: absolute;
+    top: 713px;
+    left: 0px;
+    width: 820px;
+}
+
+#area3 .dk_personal_5 {
+    position: absolute;
+    top: 939px;
+    left: 0px;
+    width: 820px;
+}
+
+#area3 .dk_personal_6 {
+    position: absolute;
+    top: 1164px;
+    left: 0px;
+    width: 820px;
+}
+
+#area3 .dk_passport_en1 {
+    position: absolute;
+    height: 18px;
+    width: 63px;
+    top: -32px;
+    left: 250px;
+    font-size: 12px;
+}
+
+#area3 .dk_passport_en2 {
+    position: absolute;
+    height: 18px;
+    width: 74px;
+    top: -32px;
+    left: 426px;
+    font-size: 12px;
+}
+
+#area3 .dk_birthday {
+    position: absolute;
+    top: -32px;
+    left: 553px;
+    height: 18px;
+    width: 102px;
+    font-size: 12px;
+}
+
+#area3 .dk_passport_sex_a {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: -32px;
+    left: 676px;
+}
+
+#area3 .dk_passport_sex_b {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: -32px;
+    left: 724px;
+}
+
+#area3 .dk_passport_ch1 {
+    position: absolute;
+    height: 18px;
+    width: 102px;
+    top: 6px;
+    left: 250px;
+    font-size: 12px;
+}
+
+#area3 .dk_passport_id {
+    position: absolute;
+    height: 18px;
+    width: 130px;
+    top: 6px;
+    left: 637px;
+    font-size: 12px;
+}
+
+#area3 .dk_room_nb {
+    position: absolute;
+    height: 25px;
+    width: 132px;
+    top: 44px;
+    left: 250px;
+    font-size: 12px;
+}
+
+#area3 .dk_p_remarks {
+    position: absolute;
+    height: 18px;
+    width: 517px;
+    top: 122px;
+    left: 250px;
+    font-size: 12px;
+}
+
+#area3 .dk_titbar3 {
+    width: 100%;
+    height: 95px;
+    background-image: url(images/tit_bar_bg2.jpg);
+    background-repeat: repeat-x;
+}
+
+#area3 .dk_tit_name3 {
+    width: 820px;
+    height: 95px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#area3 .txt_tit3 {
+    margin-top: 28px;
+}
+
+#area3 .dk_must_icon3 {
+    float: right;
+    margin-top: 53px;
+}
+
+#area3 .dk_info3 {
+    position: relative;
+    background-image: url(images/dk_info_bg3.jpg);
+    background-repeat: no-repeat;
+    width: 820px;
+    height: 320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#area3 .dk_sex1 {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 9px;
+    left: 121px;
+}
+
+#area3 .dk_sex2 {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 9px;
+    left: 185px;
+}
+
+#area3 .dk_name {
+    width: 112px;
+    height: 20px;
+    position: absolute;
+    top: 9px;
+    left: 275px;
+}
+
+#area3 .dk_phone {
+    width: 112px;
+    height: 20px;
+    position: absolute;
+    top: 47px;
+    left: 85px;
+}
+
+#area3 .dk_email {
+    width: 298px;
+    height: 20px;
+    position: absolute;
+    top: 47px;
+    left: 275px;
+}
+
+#area3 .dk_add {
+    width: 647px;
+    height: 20px;
+    position: absolute;
+    top: 85px;
+    left: 84px;
+}
+
+#area3 .dk_opt {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 131px;
+    left: 243px;
+}
+
+#area3 .dk_opt2 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 131px;
+    left: 410px;
+}
+
+#area3 .dk_agree {
+    cursor: pointer;
+    position: absolute;
+    top: 132px;
+    left: 269px;
+}
+
+#area3 .dk_agree2 {
+    cursor: pointer;
+    position: absolute;
+    top: 132px;
+    left: 435px;
+}
+
+#area3 .dk_btn001 {
+    width: 189px;
+    height: 69px;
+    font-style: normal;
+    color: #FFFFFF;
+    border: 0px solid #FFFFFF;
+    background-image: url(images/btn_send.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    opacity: 1;
+    position: absolute;
+    top: 176px;
+    left: 314px;
+}
+
+#area3 .foot_bar {
+    height: 51px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #52494A;
+    background-image: url(images/foot_copyright.jpg);
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+    bottom: 0;
+    position: fixed;
+}
+
+
+/* finish */
+#finish .top_bar {
+    height: 46px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #ffffff;
+}
+
+#finish .top_logo {
+    float: left;
+}
+
+#finish .top_no {
+    float: right;
+}
+
+#finish .dk_kv {
+    background-color: #DAFFE0;
+    background-image: url(images/kv4.jpg);
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    background-size: cover;
+}
+
+#finish .kv_tit {
+    margin-top: 4%;
+    width: 100%;
+}
+
+#finish .dk_titbar {
+    width: 100%;
+    height: 95px;
+    background-image: url(images/tit_bar_bg.jpg);
+    background-repeat: repeat-x;
+}
+
+#finish .dk_tit_name {
+    width: 820px;
+    height: 95px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#finish .txt_tit {
+    margin-top: 9px;
+}
+
+#finish .dk_must_icon {
+    float: right;
+    margin-top: 45px;
+}
+
+#finish .dk_info {
+    position: relative;
+    background-repeat: no-repeat;
+    width: 820px;
+    height: 190px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#finish .dk_btn001 {
+    cursor: pointer;
+    opacity: 1;
+    position: absolute;
+    top: 26px;
+    left: 26px;
+}
+
+#finish .dk_btn002 {
+    cursor: pointer;
+    opacity: 1;
+    position: absolute;
+    top: 26px;
+    left: 299px;
+}
+
+#finish .dk_btn003 {
+    cursor: pointer;
+    opacity: 1;
+    position: absolute;
+    top: 26px;
+    left: 572px;
+}
+
+#finish input {
+    padding: 2px 5px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    border: 1px solid #c4c4c4;
+}
+
+#finish .foot_bar {
+    height: 51px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #52494A;
+    background-image: url(images/foot_copyright.jpg);
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+    bottom: 0;
+    position: fixed;
+}

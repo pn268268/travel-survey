@@ -1,0 +1,206 @@
+@charset "utf-8";
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+#dk_body {
+}
+.top_bar {
+	height: 46px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	/*background-color: #D4BBBB;*/
+}
+.top_logo {
+	float: left;
+}
+.top_no {
+	float: right;
+	
+}
+
+
+
+
+.dk_kv {
+	background-image: url(images/kv.jpg);
+	background-position: center;
+	height: 370px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	background-size: cover;
+}
+.kv_tit {
+	margin-top: 4%;
+	margin-left: 9%;
+	height: 55%;
+}
+
+
+
+
+
+.dk_titbar {
+	width: 100%;
+	height: 95px;
+	background-image: url(images/tit_bar_bg.jpg);
+	background-repeat: repeat-x;
+	
+}
+.dk_tit_name {
+	width: 820px;
+	height: 95px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.txt_tit {
+	margin-top: 9px;
+
+}
+.dk_must_icon{
+	float: right;
+	margin-top: 45px;
+}
+
+
+
+
+
+
+.dk_info {
+	position: relative;
+	background-image: url(images/dk_info_bg.jpg);
+	background-repeat: no-repeat;
+	width: 820px;
+	height: 477px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*ALL 單一文字欄位*/
+input{
+	padding: 2px 5px;
+	background-color: #FFFFFF;
+	cursor: pointer;
+	border: 1px solid #c4c4c4;
+}
+
+
+/*ALL select區塊*/
+select{
+padding:2px 5px;
+background-color: #FFFFFF;
+cursor: pointer;
+border: 1px solid #c4c4c4;
+}
+
+
+
+/*ALL 文字區塊*/
+textarea{
+padding:2px 5px;
+background-color: #FFFFFF;
+cursor: pointer;
+border: 1px solid #c4c4c4;
+}
+
+
+
+
+
+/*姓名*/
+.dk_name {
+	width: 112px;
+	height: 20px;
+	position: absolute;
+	top: 34px;
+	left: 87px;
+}
+
+/*電話*/
+.dk_phone {
+	width: 112px;
+	height: 20px;
+	position: absolute;
+	top: 34px;
+	left: 275px;
+}
+
+/*email*/
+.dk_email {
+	width: 298px;
+	height: 20px;
+	position: absolute;
+	top: 34px;
+	left: 477px;
+}
+
+/*渡假村*/
+.dk_place {
+	width: 214px;
+	height: 25px;
+	position: absolute;
+	top: 76px;
+	left: 160px;
+}
+
+/*備註*/
+.dk_remarks {
+	width: 686px;
+	height: 86px;
+	position: absolute;
+	top: 90px;
+	left: 86px;
+}
+
+/*個資同意*/
+.dk_opt {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 318px;
+	left: 326px;
+}
+
+/*個資TXT PNG*/
+.dk_agree {
+	cursor: pointer;
+	position: absolute;
+	top: 320px;
+	left: 353px;
+}
+
+/*送出按鈕*/
+.dk_btn001{
+	width: 189px;
+	height: 69px;
+	font-style: normal;
+	color: #FFFFFF;
+	border: 0px solid #FFFFFF;
+	background-image: url(images/btn_send.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	cursor: pointer;
+	opacity: 1;
+	position: absolute;
+	top: 365px;
+	left: 314px;
+}
+
+
+.foot_bar {
+	height: 51px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #52494A;
+	background-image: url(images/foot_copyright.jpg);
+	background-position: 50% 0%;
+	background-repeat: no-repeat;
+}

@@ -1,0 +1,144 @@
+@charset "utf-8";
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image: url(images/kv.jpg);
+	background-repeat: no-repeat;
+	background-position: 0% 0%;
+	background-size: cover;
+}
+
+#dk_body {
+}
+
+
+.top_bar {
+	height: 46px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #ffffff;
+}
+.top_logo {
+	float: left;
+}
+.top_no {
+	float: right;
+	
+}
+
+
+
+
+.dk_kv {
+	background-color: #DAFFE0;
+	background-image: url(images/kv.jpg);
+	background-position: center;
+	height: 370px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	background-size: cover;
+}
+.kv_tit {
+	margin-top: 4%;
+	
+	width: 100%;
+}
+
+
+
+
+
+.dk_titbar {
+	width: 100%;
+	height: 95px;
+	background-image: url(images/tit_bar_bg.jpg);
+	background-repeat: repeat-x;
+	
+}
+.dk_tit_name {
+	width: 820px;
+	height: 95px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.txt_tit {
+	margin-top: 9px;
+
+}
+.dk_must_icon{
+	float: right;
+	margin-top: 45px;
+}
+
+
+
+
+
+
+.dk_info {
+	position: relative;
+	background-repeat: no-repeat;
+	width: 820px;
+	height: 190px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/*按鈕1*/
+.dk_btn001{
+	cursor: pointer;
+	opacity: 1;
+	position: absolute;
+	top: 26px;
+	left: 26px;
+}
+
+/*按鈕2*/
+.dk_btn002{
+	cursor: pointer;
+	opacity: 1;
+	position: absolute;
+	top: 26px;
+	left: 299px;
+}
+
+/*按鈕3*/
+.dk_btn003{
+	cursor: pointer;
+	opacity: 1;
+	position: absolute;
+	top: 26px;
+	left: 572px;
+}
+/*ALL 單一文字欄位*/
+input{
+	padding: 2px 5px;
+	background-color: #FFFFFF;
+	cursor: pointer;
+	border: 1px solid #c4c4c4;
+}
+
+
+
+
+
+
+.foot_bar {
+	height: 51px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #52494A;
+	background-image: url(images/foot_copyright.jpg);
+	background-position: 50% 0%;
+	background-repeat: no-repeat;
+	bottom: 0;
+	position: fixed;
+	
+}
