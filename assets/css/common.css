@@ -147,17 +147,6 @@ a {
   color: var(--cm-white);
 }
 
-.hero-kv--sand {
-  background-color: var(--cm-light-sand);
-  color: var(--cm-ultramarine);
-  border-bottom: 1px solid var(--cm-sand);
-}
-
-.hero-kv--verdigris {
-  background-color: #A7BFB9;
-  color: var(--cm-ultramarine);
-}
-
 .hero-kv__ribbon {
   position: absolute;
   top: -15%;
@@ -194,12 +183,6 @@ a {
   color: var(--cm-sand);
 }
 
-.hero-kv--sand .hero-kv__eyebrow,
-.hero-kv--verdigris .hero-kv__eyebrow {
-  color: var(--cm-ultramarine);
-  opacity: 0.78;
-}
-
 .hero-kv__title {
   margin: 0;
   font-family: var(--font-title);
@@ -218,12 +201,6 @@ a {
   font-size: clamp(0.95rem, 1.5vw, 1.06rem);
   font-weight: 400;
   line-height: 1.6;
-}
-
-.hero-kv--sand .hero-kv__subtitle,
-.hero-kv--verdigris .hero-kv__subtitle {
-  color: var(--cm-ultramarine);
-  opacity: 0.88;
 }
 
 /* ===========================
@@ -1121,9 +1098,8 @@ select.form-control {
   }
 
   .hero-kv__ribbon {
-    width: 72%;
-    right: -18%;
-    opacity: 0.32;
+    width: 64%;
+    right: -28%;
   }
 
   .hero-kv__inner {
