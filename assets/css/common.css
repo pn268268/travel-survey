@@ -147,6 +147,22 @@ a {
   color: var(--cm-white);
 }
 
+.hero-kv--sand {
+  background-color: var(--cm-light-sand);
+  color: var(--cm-black);
+  border-bottom: 1px solid var(--cm-sand);
+}
+
+.hero-kv--lavender {
+  background-color: #9BADFA;
+  color: var(--cm-ultramarine);
+}
+
+.hero-kv--sienna {
+  background-color: var(--cm-sienna);
+  color: var(--cm-white);
+}
+
 .hero-kv__ribbon {
   position: absolute;
   top: -15%;
@@ -180,7 +196,8 @@ a {
   font-weight: 600;
   letter-spacing: 0.22em;
   text-transform: uppercase;
-  color: var(--cm-sand);
+  color: inherit;
+  opacity: 0.85;
 }
 
 .hero-kv__title {
@@ -197,7 +214,8 @@ a {
 .hero-kv__subtitle {
   margin: 14px 0 0;
   max-width: 520px;
-  color: rgba(255, 255, 255, 0.9);
+  color: inherit;
+  opacity: 0.9;
   font-size: clamp(0.95rem, 1.5vw, 1.06rem);
   font-weight: 400;
   line-height: 1.6;
@@ -951,12 +969,12 @@ select.form-control {
 }
 
 /* ===========================
-   Finished Page (Ultramarine Blue + Giant Ribbon)
+   Finished Page (Verdigris #A7BFB9 + Cloud White Ribbon - p.9 compliant)
    =========================== */
 .finished-hero {
   flex: 1 0 auto;
   position: relative;
-  background-color: var(--cm-ultramarine);
+  background-color: #A7BFB9;
   display: flex;
   align-items: center;
   min-height: calc(100vh - 146px);
@@ -970,7 +988,7 @@ select.form-control {
   width: 100%;
   margin: 0 auto;
   padding: 56px 28px;
-  color: var(--cm-white);
+  color: var(--cm-ultramarine);
 }
 
 .finished-card__title {
@@ -979,21 +997,21 @@ select.form-control {
   font-size: clamp(1.9rem, 4vw, 2.95rem);
   font-weight: 800;
   letter-spacing: 0.03em;
-  text-shadow: 0 2px 16px rgba(0, 0, 0, 0.28);
+  color: var(--cm-ultramarine);
 }
 
 .finished-card__desc {
   margin: 0 0 24px;
   font-size: clamp(1.05rem, 2.2vw, 1.32rem);
   font-weight: 400;
-  color: rgba(255, 255, 255, 0.94);
-  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  color: var(--cm-ultramarine);
 }
 
 .finished-card__countdown {
   margin: 0 0 30px;
   font-size: 0.95rem;
-  color: rgba(255, 255, 255, 0.88);
+  color: var(--cm-ultramarine);
+  opacity: 0.88;
 }
 
 .finished-actions {
@@ -1021,23 +1039,25 @@ select.form-control {
   transform: translateY(-1px);
 }
 
-.btn-outline-light {
+.btn-outline-dark {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   padding: 13px 30px;
   border-radius: var(--radius-pill);
-  border: 1.5px solid var(--cm-white);
-  color: var(--cm-white);
+  border: 1px solid var(--cm-black);
+  color: var(--cm-black);
+  background-color: transparent;
   text-decoration: none;
   font-size: 0.95rem;
   font-weight: 500;
-  transition: background-color 0.2s ease, color 0.2s ease;
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
 }
 
-.btn-outline-light:hover {
-  background-color: var(--cm-white);
-  color: var(--cm-ultramarine);
+.btn-outline-dark:hover {
+  background-color: var(--cm-ultramarine);
+  border-color: var(--cm-ultramarine);
+  color: var(--cm-white);
 }
 
 /* ===========================
