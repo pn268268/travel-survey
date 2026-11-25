@@ -153,6 +153,11 @@ a {
   border-bottom: 1px solid var(--cm-sand);
 }
 
+.hero-kv--verdigris {
+  background-color: #A7BFB9;
+  color: var(--cm-ultramarine);
+}
+
 .hero-kv--lavender {
   background-color: #9BADFA;
   color: var(--cm-ultramarine);
@@ -969,12 +974,12 @@ select.form-control {
 }
 
 /* ===========================
-   Finished Page (Verdigris #A7BFB9 + Cloud White Ribbon - p.9 compliant)
+   Finished Page (Light Sand #F6EFE7 + Sand Ribbon - p.9 compliant)
    =========================== */
 .finished-hero {
   flex: 1 0 auto;
   position: relative;
-  background-color: #A7BFB9;
+  background-color: var(--cm-light-sand);
   display: flex;
   align-items: center;
   min-height: calc(100vh - 146px);
