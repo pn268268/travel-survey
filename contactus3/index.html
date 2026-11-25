@@ -5,6 +5,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>提交訂位委託書 | Club Med</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:opsz,wght@6..72,700;6..72,800&family=Noto+Sans+TC:wght@400;500;600&family=Noto+Serif+TC:wght@700;800&display=swap" rel="stylesheet">
   <link href="../assets/css/common.css" rel="stylesheet" type="text/css">
 </head>
 
@@ -26,35 +29,36 @@
   <main>
     <section class="hero-kv" style="background-image: url('../assets/images/kv-booking.jpg');">
       <div class="hero-kv__inner">
+        <p class="hero-kv__eyebrow">Reservation Request</p>
         <h1 class="hero-kv__title">提交訂位委託書</h1>
+        <p class="hero-kv__subtitle">請依序填寫假期資訊、旅客護照資料與聯絡方式，以便顧問為您保留席次。</p>
       </div>
     </section>
 
     <iframe name="hidden_iframe" id="hidden_iframe" style="display: none;" title="表單送出視窗"></iframe>
 
-    <form
-      name="dkf1"
-      id="mG61Hd"
-      class="survey-form"
-      data-form-type="booking"
-      action="https://docs.google.com/forms/u/3/d/e/1FAIpQLSeOJdECASb_c1tTrnjNHVsRhm5FG96FY2VcXo8CoozgQJEW4A/formResponse"
-      method="POST"
-      target="hidden_iframe"
-      novalidate
-    >
-      <!-- Section 1: 假期資訊 -->
-      <section class="section-bar" aria-labelledby="section1-heading">
-        <div class="section-bar__inner">
-          <h2 id="section1-heading" class="section-bar__title">
-            <span class="step-badge" aria-hidden="true">1</span>
-            <span>假期資訊</span>
-          </h2>
-          <span class="required-legend"><span class="req-star">*</span> 必填</span>
-        </div>
-      </section>
+    <div class="page-shell">
+      <form
+        name="dkf1"
+        id="mG61Hd"
+        class="survey-form form-stack"
+        data-form-type="booking"
+        action="https://docs.google.com/forms/u/3/d/e/1FAIpQLSeOJdECASb_c1tTrnjNHVsRhm5FG96FY2VcXo8CoozgQJEW4A/formResponse"
+        method="POST"
+        target="hidden_iframe"
+        novalidate
+      >
+        <!-- Section 1: 假期資訊 -->
+        <section class="form-card" aria-labelledby="section1-heading">
+          <div class="form-card__header">
+            <h2 id="section1-heading" class="form-card__title">
+              <span class="step-badge" aria-hidden="true">1</span>
+              <span>假期資訊</span>
+            </h2>
+            <span class="required-legend"><span class="req-star">*</span> 必填</span>
+          </div>
 
-      <div class="form-section">
-        <div class="form-grid">
+          <div class="form-grid">
           <div class="form-row form-row--2">
             <div class="form-field">
               <label for="dk_place" class="form-label">度假村據點<span class="req-star">*</span></label>
@@ -167,22 +171,20 @@
             <span class="char-count">0 / 200</span>
             <span class="field-error" role="alert"></span>
           </div>
-        </div>
-      </div>
+          </div>
+        </section>
 
-      <!-- Section 2: 旅客資訊 -->
-      <section class="section-bar section-bar--divider" aria-labelledby="section2-heading">
-        <div class="section-bar__inner">
-          <h2 id="section2-heading" class="section-bar__title">
-            <span class="step-badge" aria-hidden="true">2</span>
-            <span>旅客資訊</span>
-          </h2>
-          <span class="required-legend"><span class="req-star">*</span> 必填</span>
-        </div>
-      </section>
+        <!-- Section 2: 旅客資訊 -->
+        <section class="form-card" aria-labelledby="section2-heading">
+          <div class="form-card__header">
+            <h2 id="section2-heading" class="form-card__title">
+              <span class="step-badge" aria-hidden="true">2</span>
+              <span>旅客資訊</span>
+            </h2>
+            <span class="required-legend"><span class="req-star">*</span> 必填</span>
+          </div>
 
-      <div class="form-section">
-        <div class="traveler-list">
+          <div class="traveler-list">
           <!-- 旅客 1（必填） -->
           <div class="traveler-card traveler-card--required">
             <div class="traveler-card__header">
@@ -581,22 +583,20 @@
               </div>
             </div>
           </div>
-        </div>
-      </div>
+          </div>
+        </section>
 
-      <!-- Section 3: 聯絡方式 -->
-      <section class="section-bar section-bar--divider" aria-labelledby="section3-heading">
-        <div class="section-bar__inner">
-          <h2 id="section3-heading" class="section-bar__title">
-            <span class="step-badge" aria-hidden="true">3</span>
-            <span>聯絡方式</span>
-          </h2>
-          <span class="required-legend"><span class="req-star">*</span> 必填</span>
-        </div>
-      </section>
+        <!-- Section 3: 聯絡方式 -->
+        <section class="form-card" aria-labelledby="section3-heading">
+          <div class="form-card__header">
+            <h2 id="section3-heading" class="form-card__title">
+              <span class="step-badge" aria-hidden="true">3</span>
+              <span>聯絡方式</span>
+            </h2>
+            <span class="required-legend"><span class="req-star">*</span> 必填</span>
+          </div>
 
-      <div class="form-section">
-        <div class="form-grid">
+          <div class="form-grid">
           <div class="form-row form-row--2">
             <div class="form-field">
               <span class="form-label">稱謂<span class="req-star">*</span></span>
@@ -663,11 +663,12 @@
           </div>
         </div>
 
-        <div class="back-nav">
-          <a href="../index.html" class="back-link">&larr; 返回服務選擇頁</a>
-        </div>
-      </div>
-    </form>
+          <div class="back-nav">
+            <a href="../index.html" class="back-link">&larr; 返回服務選擇頁</a>
+          </div>
+        </section>
+      </form>
+    </div>
   </main>
 
   <!-- 隱私權政策 Modal -->

@@ -5,6 +5,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>行程報價 | Club Med</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:opsz,wght@6..72,700;6..72,800&family=Noto+Sans+TC:wght@400;500;600&family=Noto+Serif+TC:wght@700;800&display=swap" rel="stylesheet">
   <link href="../assets/css/common.css" rel="stylesheet" type="text/css">
 </head>
 
@@ -26,31 +29,32 @@
   <main>
     <section class="hero-kv" style="background-image: url('../assets/images/kv-quote.jpg');">
       <div class="hero-kv__inner">
+        <p class="hero-kv__eyebrow">Tailor-Made Quote</p>
         <h1 class="hero-kv__title">行程報價</h1>
-      </div>
-    </section>
-
-    <section class="section-bar" aria-labelledby="quote-heading">
-      <div class="section-bar__inner">
-        <h2 id="quote-heading" class="section-bar__title">請填寫表單</h2>
-        <span class="required-legend"><span class="req-star">*</span> 必填</span>
+        <p class="hero-kv__subtitle">留下您的假期構想，旅遊顧問將於二個工作天內提供專屬報價。</p>
       </div>
     </section>
 
     <iframe name="hidden_iframe" id="hidden_iframe" style="display: none;" title="表單送出視窗"></iframe>
 
-    <form
-      name="dkf1"
-      id="mG61Hd"
-      class="survey-form"
-      data-form-type="quote"
-      action="https://docs.google.com/forms/u/3/d/e/1FAIpQLSdunOL1-zi4eiN9qDOkRxRUmY9gq033-5Onrmh5uPBb5_4Sog/formResponse"
-      method="POST"
-      target="hidden_iframe"
-      novalidate
-    >
-      <div class="form-section">
-        <div class="form-grid">
+    <div class="page-shell">
+      <form
+        name="dkf1"
+        id="mG61Hd"
+        class="survey-form"
+        data-form-type="quote"
+        action="https://docs.google.com/forms/u/3/d/e/1FAIpQLSdunOL1-zi4eiN9qDOkRxRUmY9gq033-5Onrmh5uPBb5_4Sog/formResponse"
+        method="POST"
+        target="hidden_iframe"
+        novalidate
+      >
+        <div class="form-card">
+          <div class="form-card__header">
+            <h2 id="quote-heading" class="form-card__title">請填寫表單</h2>
+            <span class="required-legend"><span class="req-star">*</span> 必填</span>
+          </div>
+
+          <div class="form-grid">
           <!-- Row 1: 姓名、電話、Email -->
           <div class="form-row form-row--3">
             <div class="form-field">
@@ -222,8 +226,9 @@
         <div class="back-nav">
           <a href="../index.html" class="back-link">&larr; 返回服務選擇頁</a>
         </div>
-      </div>
-    </form>
+        </div>
+      </form>
+    </div>
   </main>
 
   <!-- 隱私權政策 Modal -->
