@@ -1,48 +1,70 @@
 <!doctype html>
-<html>
+<html lang="zh-Hant">
 
 <head>
-	<meta charset="utf-8">
-	<title>請選擇服務</title>
-	<link href="index.css" rel="stylesheet" type="text/css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>請選擇服務 | Club Med 線上諮詢表</title>
+  <link href="assets/css/common.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-	<div class="top_bar">
-		<a href="https://www.clubmed.com.tw" target="_blank">
-			<img src="images/top_logo.jpg" width="193" height="46" alt="" class="top_logo" />
-		</a>
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a href="https://www.clubmed.com.tw" target="_blank" rel="noopener noreferrer" class="site-logo" aria-label="Club Med 台灣官網">
+        <img src="assets/images/top_logo.jpg" alt="Club Med">
+      </a>
+      <a href="tel:0800258263" class="site-phone" aria-label="撥打客服專線 0800-258-263">
+        <svg class="site-phone__icon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C10.61 21 3 13.39 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.57 3.58a1 1 0 0 1-.25 1.01l-2.2 2.2z" />
+        </svg>
+        <span>0800-258-263</span>
+      </a>
+    </div>
+  </header>
 
-		<img src="images/top_no.jpg" width="191" height="46" alt="" class="top_no" />
-	</div>
+  <main>
+    <section class="hero-kv" style="background-image: url('assets/images/kv-home.jpg');">
+      <div class="hero-kv__inner">
+        <h1 class="hero-kv__title">Club Med 線上諮詢表</h1>
+      </div>
+    </section>
 
-	<div class="dk_body" id="dk_body">
-		<div class="dk_kv">
-			<img src="images/kv_tit.png" alt="" class="kv_tit" />
-		</div>
+    <section class="section-bar" aria-labelledby="service-heading">
+      <div class="section-bar__inner">
+        <h2 id="service-heading" class="section-bar__title">選擇服務項目</h2>
+      </div>
+    </section>
 
-		<div class="dk_titbar">
-			<div class="dk_tit_name">
-				<img src="images/txt_tit.jpg" width="384" height="47" alt="" class="txt_tit" />
-			</div>
-		</div>
+    <div class="page-container">
+      <nav class="service-grid" aria-label="服務項目導覽">
+        <a href="contactus1/index.html" class="btn-service">
+          <span>旅遊行前須知 / 度假村資訊</span>
+          <svg class="btn-service__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </a>
 
-		<div class="dk_info">
-			<a href="contactus1/index.html">
-				<img src="images/btn_1-1.png" width="281" height="63" class="dk_btn001" alt="了解度假村資訊" />
-			</a>
+        <a href="contactus2/index.html" class="btn-service">
+          <span>行程報價</span>
+          <svg class="btn-service__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </a>
 
-			<a href="contactus2/index.html">
-				<img src="images/btn_1-2.png" width="223" height="63" class="dk_btn002" alt="行程報價" />
-			</a>
+        <a href="contactus3/index.html" class="btn-service">
+          <span>提交訂位委託書</span>
+          <svg class="btn-service__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </a>
+      </nav>
+    </div>
+  </main>
 
-			<a href="contactus3/index.html">
-				<img src="images/btn_1-3.png" width="223" height="63" class="dk_btn003" alt="提交訂位委託書" />
-			</a>
-		</div>
-	</div>
-	
-	<div class="foot_bar"></div>
+  <footer class="site-footer">
+    &copy;2026 Club Med All Rights Reserved.
+  </footer>
 </body>
 
 </html>
